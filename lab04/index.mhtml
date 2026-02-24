@@ -62,6 +62,32 @@ margin-bottom: 1rem;
 padding-bottom: 0.5rem
 border-bottom: 2px solid #ff00ff;
 }
+h3 {
+color: #ff00ff;
+font-size: 1.3rem
+margin-bottom: 0.5rem
+}
+link {
+color: #00d4ff;
+text-decoration: none;
+font-weight: bold;
+}
+link:hover {
+color: #ff00ff;
+}
+.container {
+max-width: 1200px;
+margin: 0 auto;
+padding-left: 1.5rem;
+padding-right: 1.5rem;
+}
+.section {
+background-color: #0f1a3d;
+padding: 2rem;
+margin-bottom: 2rem;
+border-left: 5px solid #00d4ff;
+border-radius: 8px;
+}
 </style>
 </head>
 <body>
@@ -2851,6 +2877,7 @@ ttom: 3px dashed rgb(255, 0, 255); }
 
 #contact-section { border: 2px solid rgb(255, 0, 255); text-align: center; }
 ------MultipartBoundary--a06RHCtlCw62sWx8D4GWa93Iow4GI6CYDKrllOb4QG------
+
 
 
 
