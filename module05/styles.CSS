@@ -10,9 +10,8 @@
         }
 
         .feature-list {
-            display: block;
-            grid-template-columns: 1fr 1fr;
-            gap: 1.5rem;
+            display: list-item;
+            list-style-type:square;
             margin: 1.5rem 0;
         }
 
