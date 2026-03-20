@@ -71,6 +71,11 @@
         p div{
           border-bottom: 6px #000000;
         }
+
+        div:nth-of-type(1){
+          /*has several styles acting on it, so i need to get around all of them */
+          background-color: #741794 !important;
+        }
         body {
 background-color: #1e0a27;
 color: #aaf5a3;
