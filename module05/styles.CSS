@@ -17,8 +17,8 @@
 
         /* Class Selectors */
         .highlight {
-            background-color: #1a2a5e;
-            color: #00d4ff;
+            background-color: #295b3a;
+            color: #00ff33;
             padding: 0.25em 0.5em;
             border-radius: 4px;
             font-weight: bold;
@@ -31,10 +31,17 @@
             margin: 1.5rem 0;
         }
 
-        .feature-card {
-            background-color: #1a2a5e;
+        .feature-card:nth-of-type(even) {
+            background-color: #115a1f;
             padding: 1.5rem;
-            border: 2px solid #ff00ff;
+            border: 2px solid #1e432a;
+            border-radius: 8px;
+            transition: all 0.3s ease;
+        }
+        .feature-card:nth-of-type(odd) {
+            background-color: #431a5e;
+            padding: 1.5rem;
+            border: 2px solid #460a69;
             border-radius: 8px;
             transition: all 0.3s ease;
         }
