@@ -71,7 +71,7 @@
             text-align: center;
         }
 /*fulfills: descendant*/
-        section div{
+        section > div{
           border-bottom: 6px #000000;
         }
 /*fulfills: descendant*/
