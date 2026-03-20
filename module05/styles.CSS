@@ -9,21 +9,21 @@
             font-weight: bold;
         }
 
-        .feature-grid {
-            display: grid;
+        .feature-list {
+            display: block;
             grid-template-columns: 1fr 1fr;
             gap: 1.5rem;
             margin: 1.5rem 0;
         }
 
-        .feature-card:nth-of-type(even) {
+        .feature-item:nth-of-type(even) {
             background-color: #115a1f;
             padding: 1.5rem;
             border: 2px solid #1e432a;
             border-radius: 8px;
             transition: all 0.3s ease;
         }
-        .feature-card:nth-of-type(odd) {
+        .feature-item:nth-of-type(odd) {
             background-color: #431a5e;
             padding: 1.5rem;
             border: 2px solid #460a69;
@@ -31,12 +31,12 @@
             transition: all 0.3s ease;
         }
 
-        .feature-card:hover {
+        .feature-item:hover {
             border-color: #741794;
             box-shadow: 0 0 20px rgba(0, 212, 255, 0.3);
         }
 
-        .feature-card h3 {
+        .feature-item h3 {
             margin-top: 0;
         }
         .link:hover {
