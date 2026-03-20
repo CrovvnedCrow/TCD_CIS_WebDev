@@ -80,6 +80,9 @@
         a[href*="wiki"] {
           color: #ffffff;
         }
+        a[href*="crovvned"]:hover {
+            color: #bf00ff
+        }
         body {
 background-color: #1e0a27;
 color: #aaf5a3;
