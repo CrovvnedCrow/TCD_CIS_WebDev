@@ -41,7 +41,9 @@
         .link:hover {
             color: #00ff33;
         }
-
+        footer.link {
+          color: #cc0cee00;
+        }
         .accent-text {
             color: #bf00ff;
             font-weight: bold;
