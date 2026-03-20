@@ -70,7 +70,7 @@
             border: 2px solid #a600ff;
             text-align: center;
         }
-/*fulfills: descendant*/
+/*fulfills: combinator*/
         section > div{
           border-bottom: 6px #000000;
         }
