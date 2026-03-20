@@ -77,7 +77,7 @@
           background-color: #aaf5a3
         }
         /*fulfills: attribute*/
-        a[href^="https"] {
+        a[href*="wiki"] {
           color: #ffffff;
         }
         body {
