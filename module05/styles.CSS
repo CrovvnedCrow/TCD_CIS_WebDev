@@ -77,7 +77,7 @@
 /*fulfills: descendant*/
         section div:nth-of-type(1){
           /*has several styles acting on it, so i need to get around all of them */
-          background-color: #741794 ;
+          background-color: #741794 !important;
         }
 /*fulfills: descendant*/
         section h2 {
