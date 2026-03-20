@@ -59,13 +59,6 @@
             font-weight: bold;
         }
 /*fulfills: ID*/
-        #hero-section {
-            color: #00ff04;
-            text-align: center;
-            border:none;
-            border-bottom: 3px dashed #bf00ff;
-        }
-/*fulfills: ID*/
         #contact-section {
             border: 2px solid #a600ff;
             text-align: center;
