@@ -39,6 +39,9 @@
         .feature-card h3 {
             margin-top: 0;
         }
+        .link:hover {
+            color: #00ff33;
+        }
 
         .accent-text {
             color: #bf00ff;
